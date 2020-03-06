@@ -15,14 +15,6 @@
     --dark-grey: #54585a;
     --light-grey: #b8b8b9;
     --bg-grey: #f1f1f1;
-
-    /* -- typo -- */
-    --normal: 12px;
-    /* space letter */
-    --space: 10px;
-    --space-2: 20px;
-    /* box shadow */
-    --box: 0px 0 2px 1px #E6E5E9;
 }
 
 
@@ -60,6 +52,7 @@ p {
     bottom: 8px;
     left: 16px;
 }
+
 
 .equipo {
     margin-top: 20px;
