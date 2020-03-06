@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+/*Aquí van las variables*/
+:root {
+    /* -- colors -- */
+    --lightblue-color: #00BCD4;
+    --dark-blue-color: #303F9F;
+    --white-color: FFFFFF;
+    --dark-grey: #54585a;
+    --light-grey: #b8b8b9;
+    --bg-grey: #f1f1f1;
+
+    /* -- typo -- */
+    --normal: 12px;
+    /* space letter */
+    --space: 10px;
+    --space-2: 20px;
+    /* box shadow */
+    --box: 0px 0 2px 1px #E6E5E9;
+}
+
+
+body {
+    background-color: var(--white-color);
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-grey);
+}
+
+#navbar-custom {
+    background-color: var(--dark-blue-color);
+}
+
+.nav-float-right {
+    float: right;
+}
+
+.navbar {
+    height: 60px;
+
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.equipo {
+    margin-top: 20px;
+}
+
+#equipo {
+    margin-top: 15px;
+}
+
+
+footer {
+    background-color: var(--dark-grey);
+    
+}
+
+.linksfooter {
+    color: var(--white-color);
+}
+
+#copyright {
+    display: flex;
+    color:var(--white-color);   
+}
+
+#two-columns {
+    background-color: var(--light-grey);
+}
+
+.subtitles {
+    color: var(--dark-blue-color);
+    font-weight: bold;
+}
